@@ -38,3 +38,4 @@ New controls:
 Quantizer controls affect the custom luminance DCT stage, not the browser encoder's JPEG table. This does not implement every JPEG algorithm stage or the reference plugin's unspecified advanced/broken tools. Browser encoders and decoders may produce different results across platforms.
 
 Settings persist in presets/projects. Processing is limited to 384px on the longest side; still export scales the effect layer. Byte decoding is asynchronous: playback can show the most recently decoded frame for unchanged settings while a new decode runs. Still export waits for the paused frame. Performance and real browser exports require visual QA; see CHECKS.md.
+Live site: https://feelrz.github.io/photomosh-generator/
