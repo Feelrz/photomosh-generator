@@ -1,0 +1,62 @@
+{
+  "measurements": {
+    "codec": {
+      "changed": 0.608804012345679,
+      "mean": 15.127384259259259
+    },
+    "acid": {
+      "changed": 0.9999305555555555,
+      "mean": 79.79243312757201
+    },
+    "collapse": {
+      "changed": 0.9999768518518518,
+      "mean": 78.27136574074073
+    },
+    "possession": {
+      "changed": 0.9953549382716049,
+      "mean": 36.78980709876543
+    },
+    "possessionMotion": {
+      "changed": 0.7354243827160494,
+      "mean": 17.551121399176953
+    },
+    "broadcast": {
+      "changed": 0.9629166666666666,
+      "mean": 42.121126543209876
+    },
+    "broadcastMotion": {
+      "changed": 0.5641512345679013,
+      "mean": 30.294439300411522
+    },
+    "colony": {
+      "changed": 0.9991435185185186,
+      "mean": 125.65226080246913
+    },
+    "colonyMotion": {
+      "changed": 0.18743827160493828,
+      "mean": 11.868896604938271
+    },
+    "gravity": {
+      "changed": 0.920378086419753,
+      "mean": 92.59049125514403
+    },
+    "gravityMotion": {
+      "changed": 0.7199151234567901,
+      "mean": 35.03079732510288
+    },
+    "burst": {
+      "changed": 0.4001697530864198,
+      "mean": 28.453027263374487
+    },
+    "burstMotion": {
+      "changed": 0.4001697530864198,
+      "mean": 28.453027263374487
+    }
+  },
+  "errors": [],
+  "warnings": [
+    "Error: WebGL2 is unavailable"
+  ],
+  "renderer": "Canvas fallback",
+  "note": "JSDOM + native Canvas; not a browser layout, WebGL or codec test."
+}

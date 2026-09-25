@@ -1,4 +1,38 @@
+# v1.10.0 — Dead signal / visible codec damage
+
+- Rebuilt Paranormal Signal with moving image displacement, spectral intrusion, lost-broadcast degradation, stronger burst tearing and genuine pixel disintegration.
+- Added GRAVITY ROT falling pixel dither, motion rate/seed, timeline/storm trigger and paused-photo Live motion.
+- Added DEAD AIR and CURSED TAPE quick looks; toggling a zero-strength individual effect loads a usable starter.
+- Fixed invisible initial JPEG activation by providing a visible recipe/Mix; added Macroblock collapse, Acid chroma and three JPEG looks matching the requested coarse-block/neon direction.
+- Retained luminance DCT quantizer and actual JPEG entropy-byte controls, safe decode fallback and deterministic seeds. Cached expensive static JPEG work; added a lighter temporal corruption stage.
+- Added toolbar Undo/Redo with grouped slider/stroke edits, settings/presets, image source changes, mask/keyframes, reset and project-import restoration. Native text undo stays available.
+- Kept empty/light/VT323/off startup, old presets/projects and export formats. New narrow-layout controls wrap and Paranormal becomes one column on small screens.
+- Added real native Canvas image-change/motion checks, history integration checks, exact exported PNG comparison and compatibility tests. Browser restrictions still prevent a real WebGL/responsive/codec sign-off; see CHECKS.md.
+
 # Changelog
+
+## v1.9.0 — Clean start and reliability audit
+
+- Embedded VT323 only; removed custom font input and bundled sample photos.
+- Light startup with accessible dark-mode slider switch.
+- Neutral effect strengths, valid minimum sizes/counts, all effect switches off.
+- Explicit clean renderer path for zero core effects.
+- Empty-source onboarding, last-source removal and guards for media-dependent actions.
+- Zero effects preserves media/masks; Clear images only clears source transitions.
+- Corrected preview blend, visible-overlay freeze/hunter capture, locked randomization and topology labels.
+- Transactional project validation, empty projects, extra UI persistence and bounded keyframes.
+- Recorder cleanup and async stale-JPEG invalidation; temporary GPU shader/export resource cleanup.
+- Added full-script DOM/native Canvas integration checks and reproducible test runner.
+
+
+## v1.8.3 — Signal Cooker accumulation controls
+
+- Renamed Passes to Iterations and extended its range to 24 while retaining the saved identifier.
+- Added default-neutral Block damage, Texture buildup, Color drift, Edge burn and Damage seed controls.
+- Retained sequential accumulation, Heat/Crush/Mix, modulation and preset/project integration.
+- Moved repeated math out of inner loops and cached exact unchanged input/settings.
+- Added accumulated-transform, individual effect, legacy pixel, cache invalidation and settings round-trip tests.
+
 
 ## v1.8.2 — JPEG quantizers and scan bytes
 

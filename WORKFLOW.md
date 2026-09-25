@@ -1,24 +1,15 @@
-# Suggested workflow — v1.3.0
+# PhotoMosh Studio — clean workflow
 
-1. Open the standalone HTML and add 2–6 source images.
-2. Click **Load VT323** once if VT323 is not installed on the computer.
-3. Choose a topology and scrub the master timeline.
-4. In **Signal Surgery**, click a parameter to read its explanation before pushing it; the blue row is the parameter currently described on the right.
-5. Start with Fusion, Warp, Feedback and Memory before adding Slit-scan, Chroma or Chaos.
-6. Paint **Protect** over details that should survive and **Infect/Smear** over areas that may collapse.
-7. For 3+ sources, raise Cross-DNA Continuity and Source Braid to carry visual memory across transitions.
-8. Use Boomerang for A→B→A motion, then add subtle VHS Grain / Scanlines / Tracking Drift.
-9. Optional: load audio and enable Audio Reactor.
-10. Play the sequence to let Frame Hunter capture accidental frames, or freeze a strong output as new DNA.
-11. Export a still or record WebM.
+1. Open `standalone/PhotoMosh-Studio.html`. VT323 loads automatically; no setup or server is required.
+2. Add 1–8 images. A single image stays clean until an effect is raised; multiple images support a clean transition with the neutral settings.
+3. Choose a built-in preset or raise individual Signal Surgery controls. Play or scrub the timeline to preview.
+4. For VHS/CRT, choose a display mode, raise Amount, then raise the desired effect.
+5. For Signal Cooker, enable it, raise Heat and Mix, then gradually add iterations, damage, texture, color or edge burn.
+6. For JPEG Damage, choose CRUSHED CODEC, ACID LEAK or FULL COLLAPSE. Fine-tune Macroblock collapse, Acid chroma, Mix, compression, corruption, quantization or broken bytes. Animate corruption uses Play or Live motion.
+7. For Paranormal Signal, switch on an effect or choose DEAD AIR / CURSED TAPE. Live motion animates a paused photo; turn it off to freeze. GRAVITY ROT makes dithered image fragments fall. For modulation, enable it and set Rate and Depth, then Play.
+8. Undo/Redo lives beside Save project (Ctrl/Cmd Z, Ctrl/Cmd Shift Z). Masks and keyframes remain available. Freeze captures the currently visible effect composite as new DNA.
+9. Save a shareable preset for settings only, or save a project to retain source images, masks and keyframes. Audio media is not embedded.
+10. Export PNG/JPEG or record a browser-supported WebM/MP4. GIF/MKV are not included. High-resolution stills scale preview-sized overlay effects.
+11. Use Zero effects to return to neutral without removing media or masks. Use Clear images to empty the source chain.
 
-For a Watch Dogs-like restrained result, keep the UI styling monochrome but let the artwork itself remain colored. For a more Errorhead-like result, increase Chaos, Slit-scan, Chroma and Feedback while keeping a reproducible Seed.
-
-## v1.7 Paranormal Signal
-
-1. Open PARANORMAL SIGNAL under the Presets section.
-2. For SIGNAL POSSESSION, choose an existing DNA source and reveal mode, then raise Invasion.
-3. Add a short CURSED BROADCAST phrase and raise Presence.
-4. Place GLITCH BURST at a timeline percentage, adjust Duration, and raise Damage.
-5. Raise DEAD PIXEL COLONY Spread and adjust Growth to control how it changes through the sequence.
-6. Save a custom preset or project; still/video exports include the visible overlay.
+High iterations and multiple effects cost CPU time. Use smaller preview quality and lower iterations for playback. Each new session starts light; use the Dark mode switch when desired.
